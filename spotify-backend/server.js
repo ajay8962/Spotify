@@ -16,7 +16,7 @@ connectCloudinary();
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: [""],
+    origin: ["https://spotify-19eg.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
