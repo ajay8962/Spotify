@@ -10,7 +10,7 @@ const PlayerContextProvider = (props)=>{
     const seekBar = useRef()
     const seekBg = useRef()
 
-    const url = "http://localhost:8001"
+    const url = "https://spotify-sandy-seven.vercel.app"
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);

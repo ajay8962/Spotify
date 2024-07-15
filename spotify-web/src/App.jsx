@@ -9,7 +9,7 @@ import ListAlbum from './pages/ListAlbum';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
-export const url = "http://localhost:8001"
+export const url = "https://spotify-sandy-seven.vercel.app/"
 
 const App = () => {
   return (
